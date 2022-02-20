@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	  <meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel="shortcut icon" href="logo.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+	<title></title>
+	<style type="text/css">
+	@media (max-width: 425px){
+
+	.cadastro1body {
+		background-color: #FF9933;
+		width: 100%;
+		margin: 0;
+	}
+
+	::-webkit-input-placeholder {
+	   color: #FFF;
+	}
+
+	.cadastro1body::-webkit-scrollbar {
+		width: 5px;
+	}
+
+	.cadastro1body::-webkit-scrollbar-thumb {
+		background-color: #FF9933;
+	}
+
+
+	a {
+		color: #FFF;
+		text-decoration: none;
+	}
+
+	.cadastro1 {
+		margin: auto;
+		width: 90%;
+		height: 400px;
+		border-radius: 3px;
+		background-color: #1B292E;
+	}
+
+	.modoentrada {
+		width: 100%;
+		height: 50px;
+	}
+
+	button.entrarlogin   {
+		position: relative;
+		left: 27%;
+		top: 55%;
+		width: 70px;
+		height: 30px;
+		border: none;
+		border-bottom: 2px solid #FF9933;
+		background-color: #1B292E;
+		font-family: 'Raleway', sans-serif;
+		color: #FFF;
+	}
+
+	button.cadastrarlogin  {
+		position: relative;
+		left: 28%;
+		top: 55%;
+		width: 70px;
+		height: 30px;
+		border: none;
+		border-bottom: 2px solid #FFF;
+		background-color: #1B292E;
+		font-family: 'Raleway', sans-serif;
+		color: #FFF;
+	}
+
+	button.entrarlogin:hover {
+		border-bottom: 2px solid #FFF;
+	}
+
+	button.cadastrarlogin:hover {
+		border-bottom: 2px solid #FF9933;	
+	}
+
+	.contaentrar h2 {
+		font-family: 'Raleway', sans-serif;
+		text-align: center;
+		font-size: 20px;
+		color: #FFF;
+	}
+
+	.nomes {
+		margin-top: 50px;
+		width: 100%;
+		height: 35px;
+	}
+
+	.nome {
+		position: relative;
+		left: 8%;
+		width: 35%;
+		height: 10px;
+		padding: 10px;
+		border: none;
+		border-bottom: 1px solid #FF9933;
+		background-color: #1B292E;
+		font-family: 'Raleway', sans-serif;
+		color: #FFF;
+		outline: none;
+	}
+
+
+	/* CADASTRO 2 */
+
+	.cadastro2body {
+		background-color: #FF9933;
+	}
+
+	::-webkit-input-placeholder {
+	   color: #FFF;
+	}
+
+	.cadastro2body::-webkit-scrollbar {
+		width: 5px;
+	}
+
+	.cadastro2body::-webkit-scrollbar-thumb {
+		background-color: #FF9933;
+	}
+
+	a {
+		color: #FFF;
+		text-decoration: none;
+	}
+
+	.cadastro2 {
+		margin-top: 10%;
+		position: relative;
+		left: 35%;
+		width: 350px;
+		height: 400px;
+		border-radius: 3px;
+		background-color: #1B292E;
+	}
+
+	.modoentrada {
+		width: 100%;
+		height: 50px;
+	}
+
+	button.entrarlogin {
+		position: relative;
+		left: 27%;
+		top: 55%;
+		width: 70px;
+		height: 30px;
+		border: none;
+		border-bottom: 2px solid #FF9933;
+		background-color: #1B292E;
+		font-family: 'Raleway', sans-serif;
+		color: #FFF;
+		outline: none;
+	}
+
+	button.cadastrarlogin  {
+		position: relative;
+		left: 28%;
+		top: 55%;
+		width: 70px;
+		height: 30px;
+		border: none;
+		border-bottom: 2px solid #FFF;
+		background-color: #1B292E;
+		font-family: 'Raleway', sans-serif;
+		color: #FFF;
+		outline: none;
+	}
+
+	button.entrarlogin:hover {
+		border-bottom: 2px solid #FFF;
+	}
+
+	button.cadastrarlogin:hover {
+		border-bottom: 2px solid #FF9933;	
+	}
+
+	.entrarlogin a {
+	    padding: 10px 17px;
+	    margin-left: -6px;
+	}
+
+	.cadastrarlogin a {
+	    padding: 10px 5px;
+	    margin-left: -6px;
+	}
+
+	.nascimento {
+		width: 100%;
+		height: 35px;
+		position: relative;
+		top: 5%;
+	}
+
+	.nascimento h1 {
+		font-family: 'Raleway', sans-serif;
+		font-size: 15px;
+		position: relative;
+		left: 10%;
+		color: #FFF;
+	}
+
+	.dia {
+		width: 15%;
+		height: 10px;
+		padding: 10px;
+		position: absolute;
+		left: 10%;
+		font-family: 'Raleway', sans-serif;
+		font-size: 13px;
+		border: none;
+		border-bottom: 1px solid #FF9933;
+		background-color: #1B292E;
+		color: #FFF;
+	}
+
+	.mes {
+		width: 35%;
+		padding: 6px;
+		position: absolute;
+		left: 32%;
+		font-family: 'Raleway', sans-serif;
+		border: none;
+		border-bottom: 1px solid #FF9933;
+		background-color: #1B292E;
+		color: #FFF;
+	}
+
+	.ano {
+		width: 15%;
+		height: 10px;
+		padding: 10px;
+		position: absolute;
+		left: 68%;
+		font-family: 'Raleway', sans-serif;
+		font-size: 13px;
+		border: none;
+		border-bottom: 1px solid #FF9933;
+		background-color: #1B292E;
+		color: #FFF;
+	}
+
+	.telefonecadastro2 {
+		width: 100%;
+		height: 35px;
+		position: absolute;
+		top: 36%;
+	}
+
+	.ddd {
+		width: 13%;
+		height: 10px;
+		padding: 10px;
+		position: relative;
+		left: 10%;
+		font-family: 'Raleway', sans-serif;
+		border: none;
+		border-bottom: 1px solid #FF9933;
+		background-color: #1B292E;
+		color: #FFF;
+	}
+
+	.tel {
+		width: 46%;
+		height: 10px;
+		padding: 10px;
+		position: relative;
+		left: 15%;
+		font-family: 'Raleway', sans-serif;
+		border: none;
+		border-bottom: 1px solid #FF9933;
+		background-color: #1B292E;
+		color: #FFF;
+	}
+
+	.telefonecadastro2 h1{
+		font-size: 15px;
+		position: relative;
+		left: 10%;
+		font-family: 'Raleway', sans-serif;
+		color: #FFF;
+	}
+
+	.estadocadastro2 {
+		width: 100%;
+		height: 35px;
+	}
+
+	.estadocadastro2 select {
+		position: absolute;
+		top: 65%;
+		left: 10%;
+		width: 200px;
+		padding: 10px;
+		font-family: 'Raleway', sans-serif;
+		border: none;
+		border-bottom: 1px solid #FF9933;
+		background-color: #1B292E;
+		color: #FFF;
+	}
+
+	.estadocadastro2 h1 {
+		font-size: 15px;
+		position: absolute;
+		font-family: 'Raleway', sans-serif;
+		color: #FFF;
+		left: 10%;
+		top: 55%;
+	}
+
+	.cadastrar2 button {
+		width: 120px;
+		height: 40px;
+		background-color: #1B292E;
+		border: 2px solid #FF9933;
+		border-radius: 3px;
+		font-family: 'Raleway', sans-serif;
+		font-size: 15px;
+		transition: all .9s;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 12px;
+		color: #FF9933;
+		position: relative;
+		left: 10%;
+		margin-top: 57%;
+		outline: none;
+	}
+
+	.cadastrar2 button:hover {
+		color: #1B292E;
+		background-color: #FF9933;
+		transition: all .9s;
+	}
+
+	.cadastrar2 a {
+	    padding: 11px 23px;
+	    margin-left: -6px;
+	}
+
+	.fazerlogincadastro2 a {
+		position: absolute;
+		font-size: 13px;
+		font-family: 'Prompt', sans-serif;
+		text-decoration: none;
+		color: #FFF;
+		top: 85%;
+		left: 55%;
+		transition: all .9s;
+		text-decoration: none;
+	}
+		
+	.fazerlogincadastro2 a:hover {
+		text-decoration: underline;
+	}
+
+	/* ENTRAR */
+
+	.entrarbody {
+		background-color: #FF9933;
+	}
+
+	::-webkit-input-placeholder {
+	   color: #FFF;
+	}
+
+	.entrarbody::-webkit-scrollbar {
+		width: 5px;
+	}
+
+	.entrarbody::-webkit-scrollbar-thumb {
+		background-color: #FF9933;
+	}
+
+	a {
+		color: #FFF;
+		text-decoration: none;
+	}
+	.contaentrar {
+		margin-top: 10%;
+		position: relative;
+		left: 35%;
+		width: 350px;
+		height: 400px;
+		border-radius: 3px;
+		background-color: #1B292E;
+	}
+
+	.modoentrada {
+		width: 100%;
+		height: 50px;
+	}
+
+	button.entrarlogin {
+		position: relative;
+		left: 27%;
+		top: 55%;
+		width: 70px;
+		height: 30px;
+		border: none;
+		border-bottom: 2px solid #FFF;
+		background-color: #1B292E;
+		font-family: 'Raleway', sans-serif;
+		color: #FFF;
+		outline: none;
+	}
+
+	button.cadastrarlogin  {
+		position: relative;
+		left: 28%;
+		top: 55%;
+		width: 70px;
+		height: 30px;
+		border: none;
+		border-bottom: 2px solid #FF9933;
+		background-color: #1B292E;
+		font-family: 'Raleway', sans-serif;
+		color: #FFF;
+		outline: none;
+	}
+
+		button.entrarlogin:hover {
+			border-bottom: 2px solid #FF9933;
+		}
+
+		button.cadastrarlogin:hover {
+			border-bottom: 2px solid #FFF;	
+		}
+
+	.contaentrar h2 {
+		font-family: 'Raleway', sans-serif;
+		text-align: center;
+		font-size: 20px;
+		color: #FFF;
+	}
+
+	.emailentrar input {
+		position: absolute;
+		font-family: 'Raleway', sans-serif;
+		background-color: #1B292E;
+		top: 30%;
+		left: 12%;
+		height: 20px;
+		width: 250px;	
+		padding: 10px;
+		border: none;
+		border-bottom: 1px solid #FF9933;
+		outline: none;
+		color: #FFF;
+		font-size: 15px;
+		outline: none;
+	}
+
+	.senhaentrar input {
+		position: absolute;
+		font-family: 'Raleway', sans-serif;
+		background-color: #1B292E;
+		top: 45%;
+		left: 12%;
+		height: 20px;
+		width: 250px;	
+		padding: 10px;
+		border: none;
+		border-bottom: 1px solid #FF9933;
+		outline: none;
+		color: #FFF;
+		font-size: 15px;
+		outline: none;
+	}
+
+	.entrarlogin a {
+	    padding: 10px 17px;
+	    margin-left: -6px;
+	}
+
+	.cadastrarlogin a {
+	    padding: 10px 5px;
+	    margin-left: -6px;
+	}
+
+	.avancarlogin button {
+		width: 120px;
+		height: 40px;
+		background-color: #1B292E;
+		border: 2px solid #FF9933;
+		border-radius: 3px;
+		font-family: 'Raleway', sans-serif;
+		font-size: 15px;
+		transition: all .9s;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 12px;
+		position: relative;
+		left: 12%;
+		margin-top: 60%;
+		outline: none;
+		padding: 10px 25px;
+	}
+
+	.avancarlogin button:hover {
+		color: #FFF;
+		background-color: #E97800;
+		transition: all .9s;
+	}
+
+	.avancarlogin a {
+	    padding: 11px 30px;
+	    margin-left: -25px;
+	}
+}
+	</style>
+</head>
+<body class="cadastro1body">
+<form name="enviar" action="submit.html" method="post">
+<div class="cadastro1">
+	<div class="modoentrada">
+		<button class="entrarlogin">
+			<a href="entrar.html">Entrar</a>
+		</button>
+		<button class="cadastrarlogin">
+			<a href="cadastro1.html">Cadastrar</a>
+		</button>
+	</div>
+
+	<div class="nomes">
+		<input class="nome" type="text" name="nome" placeholder="Nome" maxlength="20" required>
+		<input class="sobrenome" type="text" name="sobrenome" placeholder="Sobrenome" maxlength="20" required>
+	</div>
+
+	<div class="emailcadastrar">
+		<input class="emailcadastrar" type="text" placeholder="E-mail" name="email" value="" maxlength="42" required>
+	</div>
+
+	<div class="senhacadastro1">
+		<input type="password" placeholder="Senha" name="senha" maxlength="42" required>
+	</div>
+
+	<div class="avancarcadastro">
+		<button class="avancarcadastro"><a href="cadastro2.html">Avançar</a></button>
+	</div>
+
+	<div class="fazerlogincadastro1">
+		<a href="entrar.html">Fazer login</a>
+	</div>
+</div>
+</form>
+	</body>
+	</html>

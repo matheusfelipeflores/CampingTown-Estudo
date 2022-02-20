@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="logo.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet">
+	<title>Cadastro - Cadastrar</title>
+
+</head>
+<body class="cadastro2body">
+<form name="enviar" action="submit.html" method="post">
+<div class="cadastro2">
+	<div class="modoentrada">
+		<button class="entrarlogin"><a href="entrar.html">Entrar</a></button>
+		<button class="cadastrarlogin"><a href="cadastro1.html">Cadastrar</a></button>
+	</div>
+<div class="nascimento">
+	<h1>Data de Nascimento</h1>
+	<input class="dia" type="number" name="dia" placeholder="Dia" min="1" max="31">
+	<select class="mes" name="mes" placeholder="Mês">
+		<option value="0">Mês</option>
+		<option value="1">Janeiro</option>
+		<option value="2">Fevereiro</option>
+		<option value="3">Março</option>
+		<option value="4">Abril</option>
+		<option value="5">Maio</option>
+		<option value="6">Junho</option>
+		<option value="7">Julho</option>
+		<option value="8">Agosto</option>
+		<option value="9">Setembro</option>
+		<option value="10">Outubro</option>
+		<option value="11">Novembro</option>
+		<option value="12">Dezembro</option>
+	</select>	
+	<input class="ano" type="number" name="ano" placeholder="Ano" min="1940" max="2000">
+</div>
+
+<div class="telefonecadastro2">
+	<h1>Telefone</h1>
+	<input class="ddd" type="number" name="ddd" placeholder="DDD" min="11" max="99">
+	<input class="tel" type="tel" placeholder="Telefone" maxlength="9"> 
+</div>
+<div class="estadocadastro2">
+		<h1>Estado</h1>
+		<select class="estado" name="estado">
+			<option value="0">
+				Estado onde mora
+			</option>
+			<option value="AC">Acre</option>
+			<option value="AL">Alagoas</option>
+			<option value="AP">Amapá</option>
+			<option value="AM">Amazonas</option>
+			<option value="BA">Bahia</option>
+			<option value="CE">Ceará</option>
+			<option value="DF">Distrito Federal</option>
+			<option value="ES">Espírito Santo</option>
+			<option value="GO">Goiás</option>
+			<option value="MA">Maranhão</option>
+			<option value="MT">Mato Grosso</option>
+			<option value="MS">Mato Grosso do Sul</option>
+			<option value="MG">Minas Gerais</option>
+			<option value="PA">Pará</option>
+			<option value="PB">Paraíba</option>
+			<option value="PR">Paraná</option>
+			<option value="PE">Pernambuco</option>
+			<option value="PI">Piauí</option>
+			<option value="RJ">Rio de Janeiro</option>
+			<option value="RN">Rio Grande do Norte</option>
+			<option value="RS">Rio Grande do Sul</option>
+			<option value="RO">Rondônia</option>
+			<option value="RR">Roraima</option>
+			<option value="SC">Santa Catarina</option>
+			<option value="SP">São Paulo</option>
+			<option value="SE">Sergipe</option>
+			<option value="TO">Tocantins</option>
+		</select>
+	</div>
+	<div class="cadastrar2">
+		<button>
+			<a href="submit.html">Confirmar</a>
+		</button>
+	</div>
+<div class="fazerlogincadastro2">
+	<a href="cadastro1.html">Faça Login</a>
+</div>
+</form>
+	</body>
+	</html>
